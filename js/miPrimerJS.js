@@ -1,7 +1,7 @@
 /*------Condicionales----------*/
 
 let nombreDeUsuario = prompt("ingrese su nombre");
-if ((nombreDeUsuario == null) || (nombreDeUsuario == '')) {
+if (!nombreDeUsuario) {
     alert("Hola Usuario");
 }
 else {
